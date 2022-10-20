@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+    padding: 10px;
+}
+
+/* NAVEBAR */
+.navbar.navbar-expand-lg.bg-danger {
+    background-color: #090979 !important;
+    color: #ffff !important;
+    --bs-navbar-padding-y: 0;
+    --bs-navbar-brand-padding-y: 0;
+}
+
+.list-group-item {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-color: #ffff;
+    --bs-list-group-border-color: transparent;
+}
+
+i.fa-solid.fa-at.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-github.fa-2xl,
+i.fa-solid.fa-user.fa-2xl {
+    color: #ffff;
+}
+
+i.fa-solid.fa-at.fa-2xl:hover {
+    color: rgba(128, 128, 128, 0.938);
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+    color: rgba(128, 128, 128, 0.938);
+}
+
+i.fa-brands.fa-github.fa-2xl:hover {
+    color: rgba(128, 128, 128, 0.938);
+}
+
+
+/* PANEL */
+section.panel .list-group-item{
+    color: #090979;
+    text-align: center;
+    background-color: gray;
+    border-color: gray;
+    margin: 5PX;
+}
+
+section.panel .list-group {
+    border-radius: 0;
+}
+
+/* REDES */
+section.panel .col-9{
+    margin: 20PX;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #090979 !important;
+    color: #ffff !important;
+    padding: 1rem;
+
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 425px) {
+
+    i.fa-solid.fa-at.fa-2xl,
+    i.fa-brands.fa-linkedin.fa-2xl,
+    i.fa-brands.fa-github.fa-2xl,
+    i.fa-solid.fa-user.fa-2xl {
+        font-size: 25PX;
+    }
+
+section.panel .col-2{
+    width: 95%;
+    padding-right: 0;
+
+}
+
+section.panel .col-9{
+    width: 95%;
+    margin: 5px;
+
+}
+}
